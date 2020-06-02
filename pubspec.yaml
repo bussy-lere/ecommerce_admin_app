@@ -27,18 +27,20 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  carousel_pro: ^0.0.13
-  firebase_auth: ^0.6.6
-  google_sign_in: ^3.2.4
-  cloud_firestore: ^0.8.2+3
-  firebase_storage: ^1.0.4
-  fluttertoast: ^2.2.3
-  shared_preferences: ^0.4.3
-  image_picker: ^0.4.10
-  cached_network_image: ^0.5.1
-  intl: ^0.15.7
-  uuid:
-  firebase_database:
+  carousel_pro: ^1.0.0
+  firebase_auth: ^0.16.0
+  google_sign_in: ^4.4.4
+  cloud_firestore: ^0.13.5
+  firebase_storage: ^3.1.5
+  fluttertoast: ^4.0.1
+  shared_preferences: ^0.5.7
+  image_picker: ^0.6.6+1
+  cached_network_image: ^2.2.0
+  intl: ^0.16.1
+  uuid: ^2.0.4
+  firebase_database: ^3.1.5
+  flutter_typeahead: ^1.8.0
+
 
 
 # For information on the generic Dart part of this file, see the

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import '../db/category.dart';
 import '../db/brand.dart';
+import 'add_products.dart';
 
 enum Page { dashboard, manage }
 
@@ -89,7 +90,7 @@ class _AdminState extends State<Admin> {
                     crossAxisCount: 2),
                 children: <Widget>[
                   Padding(
-                    padding: const EdgeInsets.all(18.0),
+                    padding: const EdgeInsets.all(15.0),
                     child: Card(
                       child: ListTile(
                           title: FlatButton.icon(
@@ -104,7 +105,7 @@ class _AdminState extends State<Admin> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(18.0),
+                    padding: const EdgeInsets.all(15.0),
                     child: Card(
                       child: ListTile(
                           title: FlatButton.icon(
@@ -190,7 +191,9 @@ class _AdminState extends State<Admin> {
             ListTile(
               leading: Icon(Icons.add),
               title: Text("Add product"),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => AddProduct()));
+              },
             ),
             Divider(),
             ListTile(
@@ -224,7 +227,9 @@ class _AdminState extends State<Admin> {
             ListTile(
               leading: Icon(Icons.library_books),
               title: Text("brand list"),
-              onTap: () {},
+              onTap: () {
+                BrandService().getBrands();
+              },
             ),
             Divider(),
           ],

@@ -1,90 +1,74 @@
 {
   "project_info": {
-    "project_number": "130034593582",
-    "firebase_url": "https://flutterfb-c451a.firebaseio.com",
-    "project_id": "flutterfb-c451a",
-    "storage_bucket": "flutterfb-c451a.appspot.com"
+    "project_number": "878254521569",
+    "firebase_url": "https://ecommerce-bfb47.firebaseio.com",
+    "project_id": "ecommerce-bfb47",
+    "storage_bucket": "ecommerce-bfb47.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:130034593582:android:096cb5dab58bca60",
+        "mobilesdk_app_id": "1:878254521569:android:d6f05b701a9bdda0474ba0",
         "android_client_info": {
-          "package_name": "com.santosenoque.chatapp"
+          "package_name": "com.bussylere.adminfashapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "130034593582-kj0gvgofi0jaioqmrmdheu9fuq0u5fs4.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.santosenoque.chatapp",
-            "certificate_hash": "d1de65707c7ebcf4d8e50a8d1f0c507a286c740d"
-          }
-        },
-        {
-          "client_id": "130034593582-6lm7eqkp3l0o0ql7rjggj7k5lpver585.apps.googleusercontent.com",
+          "client_id": "878254521569-u5hmo00smrdba2t1lgvc24nvvdo6jrn0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB0krkwbtyDdOxbiOqilKSztGYsZ6TUzl4"
+          "current_key": "AIzaSyAIJ79zqoPYFl-YTCv_XY42FBFt0HkE4OY"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "130034593582-6lm7eqkp3l0o0ql7rjggj7k5lpver585.apps.googleusercontent.com",
+              "client_id": "878254521569-u5hmo00smrdba2t1lgvc24nvvdo6jrn0.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "130034593582-svrltmeguiaukj834rgcev56itc9hh94.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.santosenoque.chatApp"
-              }
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:130034593582:android:ca786232e79c2f08",
+        "mobilesdk_app_id": "1:878254521569:android:17b7bc825bdde31b474ba0",
         "android_client_info": {
-          "package_name": "com.santosenoque.shop_app_admin"
+          "package_name": "com.bussylere.flutterecom"
         }
       },
       "oauth_client": [
         {
-          "client_id": "130034593582-6lm7eqkp3l0o0ql7rjggj7k5lpver585.apps.googleusercontent.com",
+          "client_id": "878254521569-l017e45oqp9qpf4lpjcevf7vt8ai9e2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bussylere.flutterecom",
+            "certificate_hash": "79f7487dcc8f615e1c80abb9b76936f156936218"
+          }
+        },
+        {
+          "client_id": "878254521569-u5hmo00smrdba2t1lgvc24nvvdo6jrn0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB0krkwbtyDdOxbiOqilKSztGYsZ6TUzl4"
+          "current_key": "AIzaSyAIJ79zqoPYFl-YTCv_XY42FBFt0HkE4OY"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878254521569-u5hmo00smrdba2t1lgvc24nvvdo6jrn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
